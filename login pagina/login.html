@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                <div class="vl">
+                    <span class="vl-innertext"></span>
+                </div>
+        
+                <div class="col">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i> Login to Facebook
+                    </a>
+                    <a href="#" class="twitter btn">
+                        <i class="fa fa-twitter fa-fw"></i> Login to Twitter
+                    </a>
+                </div>
+        
+                <div class="col">
+                    <div class="hide-md-lg">
+                        <p>Or sign in manually:</p>
+                    </div>
+        
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                    <br><br>
+                    <div class="signin">
+                        <label class="keepsignedin" for="keepsignedin">
+                            <input class="checkbox" type="checkbox" id="keepsignedin" /> Keep me signed in
+                        </label>
+                    </div>
+                    <div class="passwordforget">
+                        <a href="#" class="btn">Forgot your password?</a>
+                    </div>
+                    <input type="submit" class="submit" value="Login">
+                    <br>
+                    <a href="#" class="btn">Not a member? Sign up now!</a>
+                </div>
+        
+            </div>
+        </form>
+    </div>
+</body>
